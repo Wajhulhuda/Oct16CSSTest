@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4d68973;
+}
+.container{
+    width: 70%;
+    margin: 100px auto;
+    height: 600px;
+    border: none;
+    box-shadow: 0 0 15px #ad8f43cb;
+    background-color: #fff;
+}
+h1{
+    cursor: pointer;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color:rgba(176, 31, 31, 0.637) ;
+}
+.content{
+    padding: 15px 80px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px 0;
+}
+header a{
+    text-decoration: none;
+    color: rgb(165, 164, 162);
+    margin-left: 20px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+}
+main .heading{
+    width: 10%;
+    position: absolute;
+    padding-left: 60px;
+    top: 368px;
+    text-align: left;
+    height: 127px;
+    left: 328px;
+    background-color: #fff;
+}
+u{
+    text-decoration-color: rgba(176, 31, 31, 0.637);
+}
+main .img{
+   width: 80%;
+   margin-left: 20%;
+   height: 370px;
+   background: url("toky.jpg") no-repeat center center/cover;
+}
+.con{
+    width: 55%;
+    margin-left: 170px;
+    color: rgb(165, 164, 162);
+}
+
+.scroll{
+    display: flex;
+    position: absolute;
+    top: 636px;
+    right: 293px;
+    width: 100px;
+    height: 34px;
+    
+}
+.right, .left{
+    width: 50%;
+    font-size: 22px;
+    text-align: center;
+    
+    color: rgb(165, 164, 162);
+}
+
+.right{
+    border: 2px solid rgb(165, 164, 162);
+}
+.left{
+    border-left: 2px solid rgb(165, 164, 162);
+    border-top: 2px solid rgb(165, 164, 162);
+    border-bottom: 2px solid rgb(165, 164, 162);
+}
+i{
+    cursor: pointer;
+}
